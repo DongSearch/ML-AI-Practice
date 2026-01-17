@@ -29,7 +29,7 @@ it is a task where the model predicts a category(discrete)
 - encourages the model to assign high probability to the correct class
 - standard loss for multi-class classification
 - strong gradient when prediction is wrong → fast learning || overconfident predictions, sensitive to label noise
-- **Label smoothing!!
+- **Label smoothing**!!
   modifies the target distribution by softening one-hot labels
   prevents the model from becoming overconfident
   improves generalization & calibration acts as a form of regularization || too much smoothing → underfitting, lower max confidence
