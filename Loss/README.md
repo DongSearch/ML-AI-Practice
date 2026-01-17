@@ -17,3 +17,6 @@ Regression is a task where the model predict a continuous value
 - behave like MAE in large error, while do like MSE in small error
 - set the boundary between them by adjusting delta
 - robust to outlier(MAE), stable gradient(MSE) || setting delta is quite tricky
+
+<img width="713" height="470" alt="image" src="https://github.com/user-attachments/assets/49b37169-866b-499d-9020-4c8df1655d76" />
+
